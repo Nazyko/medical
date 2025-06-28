@@ -1,0 +1,21 @@
+.header {
+    width: 1920px;
+    height: 36px;
+    background-color: #00802c;
+    color: #FFFFFF;
+}
+
+.header_inner {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 34px;
+}
+
+.header_phone, .header_email {
+    height: 36px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
