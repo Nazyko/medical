@@ -1,0 +1,39 @@
+.hero {
+    margin: 0 auto;
+    width: 1920px;
+    height: 810px;
+    background-image: url("../../assets/hero/Header Background.jpg");
+    background-size: cover;
+}
+
+.hero_inner {
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_title {
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.hero_menu {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.hero_menu_item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    gap: 20px;
+}

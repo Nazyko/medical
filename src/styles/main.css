@@ -3,6 +3,14 @@
     --lightGreen: #23d949; 
 }
 
+a {
+    color: inherit;
+}
+
+.App {
+    overflow-x: hidden;
+}
+
 .container {
     font-family: "Montserrat"; 
     padding: 0 186px;
@@ -12,24 +20,13 @@
 /* 
 @media (min-width: 576px) {}
 
-
 @media (min-width: 768px) {}
-
 
 @media (min-width: 992px) {}
 
-
 @media (min-width: 1200px) {}
 
+@media (min-width: 1400px) {}
 
-@media (min-width: 1400px) {
-    .container {
-        padding: 0 130px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .container {
-        padding: 0 186px;
-    }
-} */
+@media (min-width: 1920px) {} 
+*/

@@ -1,5 +1,40 @@
-.navbar {
+.nav {
     width: 1920px;
     height: 88px;
     background-color: #f3f3f3;
 }
+
+.nav_inner {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_logo p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--darkGreen);
+}
+.nav_logo p:active {
+    color: var(--lightGreen);
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav_menu_item {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+

@@ -1,0 +1,16 @@
+.btn {
+    width: 240px;
+    height: 44px;
+    background-color: var(--darkGreen);
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    box-shadow: 4px 4px 8px 0 rgb(0,0,0, 20%);
+}
+
+.btn:hover {
+    background-color: var(--lightGreen);
+    box-shadow: 0px 10px 24px 1px rgb(0, 0, 0, 0.2);
+}

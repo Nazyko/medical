@@ -1,11 +1,12 @@
+import { Hero } from "../components/hero/Hero"
 
 
 
 export const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Hero />      
+    </>
   )
 }
 
