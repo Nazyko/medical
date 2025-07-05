@@ -1,0 +1,21 @@
+.hero-slider {
+    width: 100%;
+    height: 389px;
+    display: flex !important;
+    background-color: #0D6D96;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-slide-item {
+    width: 383.26px;
+    height: 254.02px;
+}
+
+.hero-slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* если нужно */
+  }

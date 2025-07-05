@@ -1,6 +1,5 @@
 import Phone from "../../assets/header/phone.svg"
 import Email from "../../assets/header/email.svg"
-import "./Header.Module.css"
 import styles from "./Header.module.css"
 
 export const Header = () => {

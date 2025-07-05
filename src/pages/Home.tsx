@@ -1,3 +1,4 @@
+import { HeroSlider } from "../components/hero-slider/HeroSlider"
 import { Hero } from "../components/hero/Hero"
 
 
@@ -5,7 +6,8 @@ import { Hero } from "../components/hero/Hero"
 export const Home = () => {
   return (
     <>
-      <Hero />      
+      <Hero /> 
+      <HeroSlider />     
     </>
   )
 }
